@@ -36,16 +36,26 @@ h2 {
 
 .nav-links,
 .trademark {
-    line-height: 75px;
-}
+    line-height: 75px; /* This horizontally aligns both the header and the nav bar elements */
+}   
 
 .nav-links li {
     float: left;
     list-style-type: none;
+    /* This removes the bullet points which are the default for ul lists */
     margin-right: 30px;
 }
 
-.nav-links a{
+.nav-links a {
     text-decoration: none;
+    /* Removes the underline default for hyperlinks */
     color: inherit;
+}
+
+.nav-links a:hover{
+    border-bottom: 1px solid #634c36;
+}
+
+.active{
+    border-bottom: 1px solid #634c36;
 }

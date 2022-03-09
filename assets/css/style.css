@@ -36,8 +36,9 @@ h2 {
 
 .nav-links,
 .trademark {
-    line-height: 75px; /* This horizontally aligns both the header and the nav bar elements */
-}   
+    line-height: 75px;
+    /* This horizontally aligns both the header and the nav bar elements */
+}
 
 .nav-links li {
     float: left;
@@ -52,25 +53,62 @@ h2 {
     color: inherit;
 }
 
-.nav-links a:hover{
+.nav-links a:hover {
     border-bottom: 1px solid #634c36;
 }
 
-.active{
+.active {
     border-bottom: 1px solid #634c36;
 }
 
 /* Open book image, home page */
 
-#open-book-outer{
+#open-book-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
-#open-book{
+.image-text1,
+.image-text1 h2 {
+    color: #3a3a3a;
+}
+
+.image-text2,
+.image-text2 h2 {
+    color: #3a3a3a;
+}
+
+#open-book {
     height: 600px;
     background: url('../images/open_book.jpg') no-repeat center center;
     background-size: 100% 100%;
 }
 
+.image-text1{
+    font-size: 130%;
+    font-family: Libre-Baskerville, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    top: 75px;
+    left: 290px;
+    position: absolute;
+}
+.image-text2{
+    font-size: 130%;
+    font-family: Libre-Baskerville, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    top: 75px;
+    right: 250px;
+    position: absolute;
+}

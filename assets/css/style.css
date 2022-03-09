@@ -70,7 +70,7 @@ h2 {
 
 #open-book{
     height: 600px;
-    width: 100%;
-    background-image: url('../images/open_book.jpg');
+    background: url('../images/open_book.jpg') no-repeat center center;
+    background-size: 100% 100%;
 }
 

@@ -63,7 +63,7 @@ h2 {
 
 /* Open book image, home page */
 
-#open-book-outer {
+.open-book-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;

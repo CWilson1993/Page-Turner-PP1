@@ -112,3 +112,10 @@ h2 {
     right: 250px;
     position: absolute;
 }
+
+/* About page turner section */ 
+#about{
+    font-size: 270%;
+    text-align: center;
+
+}

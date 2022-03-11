@@ -114,8 +114,42 @@ h2 {
 }
 
 /* About page turner section */ 
+
+
+.all-about{
+    height: 600px;
+}
+
+.left-about{
+    float: left;
+    width: 33%;
+    padding-top: 30px;
+}
+.right-about{
+    float: right;
+    width: 33%;
+    padding-top: 30px;
+}
+
+.left-about-header {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-header {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
 #about{
-    font-size: 270%;
+    font-size: 280%;
     text-align: center;
+    padding-top: 10px;
 
 }

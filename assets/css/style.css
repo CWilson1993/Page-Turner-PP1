@@ -210,3 +210,27 @@ footer {
     padding: 5%;
     color: #634c36;
 }
+
+.signup-section {
+    clear: left;
+    background: url('../images/peaceful_reading.jpg') ;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form{
+    margin:150px 10% 0 0;
+    color:#fff;
+    background-color:rgba(60, 60, 60, 0.6);
+    max-width:400px;
+    position:absolute;
+    margin-left:10%;
+    left:10%;
+    padding:30px;
+}
+
+.signup-form h2{
+    color:#fafafa;
+    margin-bottom:20px;
+}

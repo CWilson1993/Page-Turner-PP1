@@ -181,7 +181,9 @@ h2 {
     text-align: center;
     padding: 10px;
 }
-
+.unchecked{
+    color: #ccc;
+}
 .container {
     display: flex;
     flex-flow: row wrap;

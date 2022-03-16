@@ -247,6 +247,10 @@ footer {
 .input-text:hover{
     border-color:#a17f60;
 }
+::placeholder{
+    color: #fafafa;
+    opacity: 0.7;
+}
 .submit-button{
     margin-top:20px;
     border-radius:2px;

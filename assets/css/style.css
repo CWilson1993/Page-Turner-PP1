@@ -286,7 +286,8 @@ footer {
     background-color: black;
     justify-self: center;
     align-self: center;
-    
+    background-color:rgba(60, 60, 60, 0.6);
+    color: #fafafa;
 }
 .popular{
     height: 500px;
@@ -296,4 +297,6 @@ footer {
     background-color: white;
     justify-self: center;
     align-self: center;
+    background-color:rgba(60, 60, 60, 0.6);
+    color: #fafafa;
 }

@@ -24,11 +24,13 @@ h2 {
     color: #523f2e;
 }
 
+/* header styling */
 .trademark {
     float: left;
     font-size: 280%;
 }
 
+/* nav bar styling */ 
 .nav-links {
     font-size: 105%;
     letter-spacing: 3px;
@@ -74,11 +76,6 @@ h2 {
 
 .image-text1,
 .image-text1 h2 {
-    color: #3a3a3a;
-}
-
-.image-text2,
-.image-text2 h2 {
     color: #3a3a3a;
 }
 
@@ -268,6 +265,14 @@ footer {
 }
 
 /* Library */
+
+.books{
+    clear: left;
+    background: url('../images/bookcase.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    height: 1200px;
+}
 
 .genre{
     height: 600px;

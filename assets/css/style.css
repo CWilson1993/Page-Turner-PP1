@@ -278,25 +278,18 @@ footer {
     align-items: center;
 }
 
-.genre{
+.book-boxes{
     height: 500px;
     width: 90%;
     overflow: hidden;
     position: relative;
-    background-color: black;
     justify-self: center;
     align-self: center;
     background-color:rgba(60, 60, 60, 0.6);
     color: #fafafa;
 }
-.popular{
-    height: 500px;
-    width: 90%;
-    overflow: hidden;
-    position: relative;
-    background-color: white;
-    justify-self: center;
-    align-self: center;
-    background-color:rgba(60, 60, 60, 0.6);
+.book-boxes h2{
     color: #fafafa;
+    text-align: center;
+    font-weight: bold;
 }

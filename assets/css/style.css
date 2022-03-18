@@ -266,3 +266,18 @@ footer {
     background-color:#fafafa;
     color:#a17f60;
 }
+
+/* Library */
+
+.genre{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.popular{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}

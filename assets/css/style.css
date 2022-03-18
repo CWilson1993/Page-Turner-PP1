@@ -283,19 +283,6 @@ footer {
     text-align: center;
 }
 
-/* .book-boxes{
-    height: 500px;
-    width: 90%;
-    display: grid;
-    grid-template-columns: auto;
-    overflow: hidden;
-    position: relative;
-    justify-self: center;
-    align-self: center;
-    background-color:rgba(60, 60, 60, 0.6);
-    color: #fafafa;
-} */
-
 .book-boxes{
     display: flex;
     flex-direction: row;

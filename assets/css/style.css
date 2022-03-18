@@ -17,7 +17,8 @@ body {
 
 
 h1,
-h2 {
+h2, 
+h3 {
     font-family: Libre-Baskerville, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -268,7 +269,7 @@ footer {
 
 .books{
     display: grid;
-    grid-template: none 2 1;
+    grid-template-columns: auto;
     grid-row-gap: 10px;
     clear: left;
     background: url('../images/bookcase.jpg') no-repeat center center;
@@ -277,19 +278,51 @@ footer {
     width: 100%;
     align-items: center;
 }
+.books h2{
+    color: #fafafa;
+    text-align: center;
+}
 
-.book-boxes{
+/* .book-boxes{
     height: 500px;
     width: 90%;
+    display: grid;
+    grid-template-columns: auto;
     overflow: hidden;
     position: relative;
     justify-self: center;
     align-self: center;
     background-color:rgba(60, 60, 60, 0.6);
     color: #fafafa;
+} */
+
+.book-boxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:rgba(60, 60, 60, 0.875);
+    padding: 2rem;
+    height: 500px;
+    width: 50%;
+    position: relative;
+    justify-self: center;
+    justify-content: center;
 }
 .book-boxes h2{
     color: #fafafa;
     text-align: center;
     font-weight: bold;
+    text-decoration: underline;
 }
+.book-boxes h3{
+    color: #fafafa;
+    text-align: center;
+    padding-top:1rem;
+}
+.book-boxes p{
+    color: #fafafa;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+

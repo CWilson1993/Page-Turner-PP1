@@ -192,9 +192,10 @@ h3 {
     padding-left: 3px;
 }
 
+/* Footer */
 
 footer {
-    height: 100px;
+    height: 200px;
 }
 
 .social-media {
@@ -208,8 +209,13 @@ footer {
 .social-media i {
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
+    padding: 5% 5% 0 5%;
     color: #634c36;
+}
+.address{
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 5%;
 }
 
 .signup-section {

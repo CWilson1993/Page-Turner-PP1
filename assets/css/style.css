@@ -285,54 +285,16 @@ footer {
 /* Library */
 
 
-.library{
+.library {
     clear: both;
     line-height: 0;
     column-count: 5;
     column-gap: 0;
 }
 
-.library > img{
+.library>img {
     width: 100%;
 }
-
-/* 
-
-.books {
-    display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-flow: row;
-    grid-gap: 5px;
-    height: 1200px;
-    align-items: center;
-    margin: 0 5px;
-}
-
-.books h2 {
-    color: #634c36;
-    text-align: center;
-}
-
-.book-covers {
-    display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 30%;
-    height: 30%;
-} */
-
-/* .book-boxes {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: rgba(60, 60, 60, 0.875);
-    padding: 2rem;
-    height: 500px;
-    width: 50%;
-    position: relative;
-    justify-self: center;
-    justify-content: center;
-} */
-
 
 
 /* Media queries*/

@@ -343,8 +343,26 @@ footer {
         padding: 0;
     }
 
+}
 
-    /* .left-about-header,
+@media screen and (max-width:800px) {
+    .signup-form {
+        margin-top: 10%;
+        position: inherit;
+    }
+
+    .trademark, .about, .users {
+        font-size: 200%;
+    }
+
+    .nav-links {
+        float: left;
+    }
+
+    .image-text1 {
+        display: none;
+    }
+    .left-about-header,
     .right-about-header {
         width: inherit;
     }
@@ -359,34 +377,11 @@ footer {
     .right-about-header p {
         text-align: center;
         padding: 0 20px;
-    } */
-
-}
-
-@media screen and (max-width:800px) {
-    .signup-form {
-        margin-top: 10%;
-        position: inherit;
-    }
-
-    .trademark {
-        font-size: 200%;
-    }
-
-    .nav-links {
-        float: left;
-    }
-
-    .image-text1 {
-        display: none;
-    }
-
-    .about {
-        font-size: 200%;
     }
 }
 
-@media screen and (max-width:420px) {
+
+@media screen and (max-width:480px) {
     #open-book {
         background: url('../images/small_book_image.jpg') no-repeat center center;
         background-size: cover;

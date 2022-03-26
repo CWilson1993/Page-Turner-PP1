@@ -179,18 +179,14 @@ h3 {
 
 .container {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    height: 200px;
-    width: 100%;
-    padding: 20px;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 
-.sub-container {
-    width: 20%;
-    height: 200px;
-    padding-left: 3px;
+.container > * {
+    flex-basis: 100%;
+    margin: 2%;
 }
 
 /* Footer */
@@ -365,6 +361,9 @@ footer {
 @media screen and (max-width: 600px) {
     .library{
         column-count: 3;
+    }
+    .container {
+        flex-direction: column;
     }
 }
 

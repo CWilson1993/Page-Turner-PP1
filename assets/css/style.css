@@ -280,6 +280,8 @@ footer {
     cursor: pointer;
 }
 
+
+
 /* Library */
 
 
@@ -319,3 +321,36 @@ footer {
     justify-self: center;
     justify-content: center;
 } */
+
+
+
+/* Media queries*/
+@media screen and (max-width:800px){
+    .signup-form{
+        margin-top: 10%;
+        position: inherit;
+    }
+    .trademark{
+        font-size: 200%;
+    }
+    .nav-links{
+        float: left;
+    }
+    .image-text1{
+        display: none;
+    }
+    .about{
+        font-size: 200%;
+    }
+}
+
+@media screen and (max-width:420px){
+    #open-book{
+        background: url('../images/small_book_image.jpg') no-repeat center center;
+        background-size:cover;
+    }
+    .image-text1{
+        display: none;
+    }
+    
+}

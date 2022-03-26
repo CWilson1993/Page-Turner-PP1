@@ -293,7 +293,7 @@ footer {
     grid-auto-flow: row;
     grid-gap: 5px;
     height: 1200px;
-    align-items:center;
+    align-items: center;
     margin: 0 5px;
 }
 
@@ -325,32 +325,75 @@ footer {
 
 
 /* Media queries*/
-@media screen and (max-width:800px){
-    .signup-form{
+@media screen and (max-width:1000px) {
+    .all-about {
+        width: 90%;
+        height: 600px;
+        margin: 0 auto;
+    }
+    .left-about, .right-about{
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+    .center-image{
+        width: 100%;
+        clear: both;
+        float: left;
+        padding: 0;
+    }
+
+
+    /* .left-about-header,
+    .right-about-header {
+        width: inherit;
+    }
+
+    .left-about-header h2,
+    .right-about-header h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-header p,
+    .right-about-header p {
+        text-align: center;
+        padding: 0 20px;
+    } */
+
+}
+
+@media screen and (max-width:800px) {
+    .signup-form {
         margin-top: 10%;
         position: inherit;
     }
-    .trademark{
+
+    .trademark {
         font-size: 200%;
     }
-    .nav-links{
+
+    .nav-links {
         float: left;
     }
-    .image-text1{
+
+    .image-text1 {
         display: none;
     }
-    .about{
+
+    .about {
         font-size: 200%;
     }
 }
 
-@media screen and (max-width:420px){
-    #open-book{
+@media screen and (max-width:420px) {
+    #open-book {
         background: url('../images/small_book_image.jpg') no-repeat center center;
-        background-size:cover;
+        background-size: cover;
     }
-    .image-text1{
+
+    .image-text1 {
         display: none;
     }
-    
+
 }

@@ -285,7 +285,18 @@ footer {
 /* Library */
 
 
+.library{
+    clear: both;
+    line-height: 0;
+    column-count: 5;
+    column-gap: 0;
+}
 
+.library > img{
+    width: 100%;
+}
+
+/* 
 
 .books {
     display: inline-grid;
@@ -307,7 +318,7 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     width: 30%;
     height: 30%;
-}
+} */
 
 /* .book-boxes {
     display: flex;
@@ -331,12 +342,15 @@ footer {
         height: 600px;
         margin: 0 auto;
     }
-    .left-about, .right-about{
+
+    .left-about,
+    .right-about {
         width: 100%;
         float: left;
         padding: 0;
     }
-    .center-image{
+
+    .center-image {
         width: 100%;
         clear: both;
         float: left;
@@ -351,7 +365,9 @@ footer {
         position: inherit;
     }
 
-    .trademark, .about, .users {
+    .trademark,
+    .about,
+    .users {
         font-size: 200%;
     }
 
@@ -362,6 +378,7 @@ footer {
     .image-text1 {
         display: none;
     }
+
     .left-about-header,
     .right-about-header {
         width: inherit;

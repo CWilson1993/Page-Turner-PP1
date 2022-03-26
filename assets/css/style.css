@@ -318,6 +318,9 @@ footer {
         float: left;
         padding: 0;
     }
+    .library{
+        column-count: 4;
+    }
 
 }
 
@@ -359,6 +362,12 @@ footer {
     }
 }
 
+@media screen and (max-width: 600px) {
+    .library{
+        column-count: 3;
+    }
+}
+
 
 @media screen and (max-width:480px) {
     #open-book {
@@ -368,6 +377,9 @@ footer {
 
     .image-text1 {
         display: none;
+    }
+    .library{
+        column-count: 2;
     }
 
 }

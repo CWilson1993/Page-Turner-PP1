@@ -126,22 +126,19 @@ h3 {
     margin: 0 auto;
 }
 
-.left-about-header {
+.about-header {
     width: 60%;
     float: right;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
 }
-
-.right-about-header {
-    width: 60%;
+.float-left{
     float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
 }
-
+.float-right{
+    float: right;
+}
 .about {
     font-size: 280%;
     text-align: center;
@@ -341,19 +338,16 @@ footer {
         display: none;
     }
 
-    .left-about-header,
-    .right-about-header {
+    .about-header {
         width: inherit;
     }
 
-    .left-about-header h2,
-    .right-about-header h2 {
+    .about-header h2 {
         width: 100%;
         text-align: center;
     }
 
-    .left-about-header p,
-    .right-about-header p {
+    .about-header p {
         text-align: center;
         padding: 0 20px;
     }
@@ -369,6 +363,9 @@ footer {
     }
     .container{
         padding: 10px;
+    }
+    .about, .users{
+        margin-bottom: 50px;
     }
 }
 
@@ -390,9 +387,7 @@ footer {
         text-align: center;
         width: 100%;
     }
-    .about, .users{
-        margin-bottom: 50px;
-    }
+    
     .nav-links{
         padding-left: 20%;
     }

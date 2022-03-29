@@ -184,7 +184,7 @@ h3 {
 }
 
 
-.container > * {
+.container>* {
     flex-basis: 100%;
     margin: 2%;
 }
@@ -314,7 +314,8 @@ footer {
         float: left;
         padding: 0;
     }
-    .library{
+
+    .library {
         column-count: 4;
     }
 
@@ -359,11 +360,15 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-    .library{
+    .library {
         column-count: 3;
     }
+
     .container {
         flex-direction: column;
+    }
+    .container{
+        padding: 10px;
     }
 }
 
@@ -377,8 +382,18 @@ footer {
     .image-text1 {
         display: none;
     }
-    .library{
+
+    .library {
         column-count: 2;
     }
-
+    .trademark{
+        text-align: center;
+        width: 100%;
+    }
+    .about, .users{
+        margin-bottom: 50px;
+    }
+    .nav-links{
+        padding-left: 20%;
+    }
 }

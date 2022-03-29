@@ -108,17 +108,16 @@ h3 {
     height: 600px;
     padding-top: 5%;
 }
-
 .left-about {
     float: left;
     width: 33%;
-    padding-top: 30px;
+    padding-top: 60px;
 }
 
 .right-about {
     float: right;
     width: 33%;
-    padding-top: 30px;
+    padding-top: 60px;
 }
 
 .center-image {
@@ -126,18 +125,22 @@ h3 {
     margin: 0 auto;
 }
 
-.about-header {
+.left-about-header {
     width: 60%;
+    float: right;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
 }
-.float-left{
+
+.right-about-header {
+    width: 60%;
     float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
-.float-right{
-    float: right;
-}
+
 .about {
     font-size: 280%;
     text-align: center;
@@ -337,16 +340,19 @@ footer {
         display: none;
     }
 
-    .about-header {
+    .left-about-header,
+    .right-about-header {
         width: inherit;
     }
 
-    .about-header h2 {
+    .left-about-header h2,
+    .right-about-header h2 {
         width: 100%;
         text-align: center;
     }
 
-    .about-header p {
+    .left-about-header p,
+    .right-about-header p {
         text-align: center;
         padding: 0 20px;
     }

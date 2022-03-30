@@ -90,14 +90,14 @@ For the testing I apply a number of different methods.
 
 ## Credits
 
-# Content
+### Content
 - The code for the header section was taken from the Love Running module and altered for this site.
 - The icons in the footer and about section where taken from [Font Awesome](https://fontawesome.com/)
 - Used the Code Institute notes to guide me on the layout and design.
 - Used [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and also a helpful video [Learn Flexbox the easy way](https://www.youtube.com/watch?v=u044iM9xsWU&t=786s) to help me understand flex.
 - Used [Color Hunt](https://colorhunt.co/) to help me decide on a color scheme.
 
-# Images
+### Images
 - The images used where all taken from one of the below sites:
   - [Pexels](https://www.pexels.com/)
   - [Pixabay](https://pixabay.com/)

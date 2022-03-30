@@ -25,3 +25,7 @@ This was a project to create a place for everyone to read books and discuss them
   - It gives just enough information without overloading the user.
 
 ![About Section](assets/docs/about_image.png)
+
+- __Testimonial Section__
+  - The testimonial section gives prospective users an idea of what current memmbers experiences have been.  
+  - There is a star rating for each review as this can give an idea of what the sentiment of the comment might be.

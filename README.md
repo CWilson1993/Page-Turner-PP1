@@ -66,11 +66,16 @@ For the testing I apply a number of different methods.
 
 ![Lighthouse Mobile](assets/docs/Lighthouse_mobile.png) ![Lighthouse Desktop](assets/docs/Lighthouse_desktop.png)
 
-
-
 - __Casual Testing__
   - I sent the site to some family and friends for testing. They tested it on the screens they use normally, some having mainly apple products and others had android devices. I also tested this myself on my on mobile. All the devices used displayed the content correctly and as I expected it to. 
 
 
 - __Online Validators__
-  - All the HTML code was run through [W3C Validator](https://validator.w3.org/#validate_by_input) and all the CSS code was run through [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input). There were zero errors returned from both validators.
+  - All the HTML code was run through [W3C Validator](https://validator.w3.org/#validate_by_input) and all the CSS code was run through [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input). 
+  - There were zero errors returned from both validators.
+  - All the backup screenshots can be found below:
+    - [Home Page](assets/docs/HTML_Validator_index.html.png)
+    - [Library Page](assets/docs/HTML_Validator_library.html.png)
+    - [Sign Up Page](assets/docs/HTML_Validator_signup.html.png)
+    - [Complete Page](assets/docs/HTML_Validator_complete.html.png)
+    - [CSS Code](assets/docs/CSS_Validator_style.css.png)

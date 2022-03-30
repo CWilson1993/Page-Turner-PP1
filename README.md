@@ -2,7 +2,7 @@
 
 This was a project to create a place for everyone to read books and discuss them freely. The website gives people an understanding of what the site is about and what books they could read. 
 
-Published site available here: [Page Turner](https://cwilson1993.github.io/Page-Turner-PP1/)
+- __Published site available here: [Page Turner](https://cwilson1993.github.io/Page-Turner-PP1/)__
 
 ![responsive-image](assets/docs/responsive_design_image.png)
 
@@ -19,3 +19,9 @@ Published site available here: [Page Turner](https://cwilson1993.github.io/Page-
   - The hero image gives a nice feel that this is about books. It has an inspirational quote. The image is replaced by another image for the mobile version.
 
 ![Hero image](assets/docs/hero_image.png)
+
+- __About Section__
+  - The about section gives four key points which tell the user what the site is about and also why it might be for them.
+  - It gives just enough information without overloading the user.
+
+![About Section](assets/docs/about_image.png)

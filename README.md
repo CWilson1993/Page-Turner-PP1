@@ -15,3 +15,7 @@ Published site available here: [Page Turner](https://cwilson1993.github.io/Page-
 
 ![Navigation Bar](assets/docs/nav_bar.png)
 
+- __Hero image home page__
+  - The hero image gives a nice feel that this is about books. It has an inspirational quote. The image is replaced by another image for the mobile version.
+
+![Hero image](assets/docs/hero_image.png)

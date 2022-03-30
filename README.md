@@ -21,8 +21,8 @@ This was a project to create a place for everyone to read books and discuss them
 ![Hero image](assets/docs/hero_image.png)
 
 - __About Section__
-  - The about section gives four key points which tell the user what the site is about and also why it might be for them.
-  - It gives just enough information without overloading the user.
+  - The about section gives four key points which tell the user what the site is about.
+  - It gives just enough information without overloading the user and help them understand why Page Turner is for them.
 
 ![About Section](assets/docs/about_image.png)
 
@@ -35,19 +35,20 @@ This was a project to create a place for everyone to read books and discuss them
 - __Footer__
   - The footer contains the social media links which open on a new tab to the different platforms. 
   - The footer is identical on each page of the site and it also contains an address for Page Turner.
+  - Users can easily follow Page Turner on the different social platforms.
 
 ![Footer](assets/docs/footer.png)
 
 - __Library Page__
   - The library gives user an idea of the books that are available to read at Page Turner.
-  - These images are responsive for different screen sizes so that the user experience is not impacted.
+  - Rather than show titles in text the images stick out more and help the users visualize what's on offer.
 
 ![Library Page](assets/docs/library_image.png)
 
 - __Signup Page__
   - The signup page contains a hero image where the sign up form overlays the image. 
-  - The entry boxes include placeholder text to guide users, also it will not allow submission without any fields. 
-  - when the user submits the information the form is replaced by an overlayed box thanking them for signing up.
+  - The entry boxes include placeholder text to guide users so the sign up process is smoother.
+  - When the user submits the information the form is replaced by overlayed text thanking them for signing up.
 
 ![Sign up page](assets/docs/signup_image.png)
 ![Thank you response](assets/docs/thank_you_message.png)

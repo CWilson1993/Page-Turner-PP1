@@ -52,3 +52,25 @@ This was a project to create a place for everyone to read books and discuss them
 
 ![Sign up page](assets/docs/signup_image.png)
 ![Thank you response](assets/docs/thank_you_message.png)
+
+## Testing
+
+For the testing I apply a number of different methods.
+
+- __Responsiveness testing__
+  - I used dev tools in Goggle Chrome to see what my site looked like at different screen sizes. 
+
+
+- __Google Lighthouse__
+  - I used another useful add on, Google Lighthouse, which measured the performance of the site on mobile and desktop screens.
+
+![Lighthouse Mobile](assets/docs/Lighthouse_mobile.png) ![Lighthouse Desktop](assets/docs/Lighthouse_desktop.png)
+
+
+
+- __Casual Testing__
+  - I sent the site to some family and friends for testing. They tested it on the screens they use normally, some having mainly apple products and others had android devices. I also tested this myself on my on mobile. All the devices used displayed the content correctly and as I expected it to. 
+
+
+- __Online Validators__
+  - All the HTML code was run through [W3C Validator](https://validator.w3.org/#validate_by_input) and all the CSS code was run through [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input). There were zero errors returned from both validators.

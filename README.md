@@ -29,3 +29,11 @@ This was a project to create a place for everyone to read books and discuss them
 - __Testimonial Section__
   - The testimonial section gives prospective users an idea of what current memmbers experiences have been.  
   - There is a star rating for each review as this can give an idea of what the sentiment of the comment might be.
+
+![Testimonials section](assets/docs/review_image.png)
+
+- __Footer__
+  - The footer contains the social media links which open on a new tab to the different platforms. 
+  - The footer is identical on each page of the site and it also contains an address for Page Turner.
+
+![Footer](assets/docs/footer.png)

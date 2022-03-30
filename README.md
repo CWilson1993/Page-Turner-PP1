@@ -37,3 +37,17 @@ This was a project to create a place for everyone to read books and discuss them
   - The footer is identical on each page of the site and it also contains an address for Page Turner.
 
 ![Footer](assets/docs/footer.png)
+
+- __Library Page__
+  - The library gives user an idea of the books that are available to read at Page Turner.
+  - These images are responsive for different screen sizes so that the user experience is not impacted.
+
+![Library Page](assets/docs/library_image.png)
+
+- __Signup Page__
+  - The signup page contains a hero image where the sign up form overlays the image. 
+  - The entry boxes include placeholder text to guide users, also it will not allow submission without any fields. 
+  - when the user submits the information the form is replaced by an overlayed box thanking them for signing up.
+
+![Sign up page](assets/docs/signup_image.png)
+![Thank you response](assets/docs/thank_you_message.png)
